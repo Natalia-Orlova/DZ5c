@@ -41,4 +41,4 @@ void PrintArray (int[] array)
 int[] arr = CreateArrayRndInt(10, 100, 999);
 PrintArray(arr);
 int result = CountEvenNumbers(arr);
-Console.WriteLine($"Количество четных чисел в массиве - {result}");
+Console.WriteLine($"Количество четных чисел в массиве: {result}");
